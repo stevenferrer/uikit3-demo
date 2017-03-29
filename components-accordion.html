@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accordion</title>
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+		<h1>Accordion</h1>
+
+    <br/>
+    <h2>All items collapsible</h2>
+    <!-- collapsible -->
+		<ul uk-accordion>
+			<li class="uk-open">
+				<h3 class="uk-accordion-title">Item 1</h3>
+				<div class="uk-accordion-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</li>
+      <li>
+        <h3 class="uk-accordion-title">Item 2</h3>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+      <li>
+        <h3 class="uk-accordion-title">Item 3</h3>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+		</ul>
+
+    <h2>Non collapsible</h2>
+    <!-- non-collapsible -->
+    <ul uk-accordion="collapsible: false">
+      <li class="uk-open">
+        <h3 class="uk-accordion-title">Item 1</h3>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+      <li>
+        <h3 class="uk-accordion-title">Item 2</h3>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+      <li>
+        <h3 class="uk-accordion-title">Item 3</h3>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+    </ul>
+
+    <h2>Multiple open items</h2>
+    <!-- multiple open items -->
+    <ul uk-accordion="multiple:true">
+      <li class="uk-open">
+        <h3 class="uk-accordion-title">Item 1</h3>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+      <li>
+        <h3 class="uk-accordion-title">Item 2</h3>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+      <li>
+        <h3 class="uk-accordion-title">Item 3</h3>
+        <div class="uk-accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </li>
+    </ul>
+    </body>
+</html>
