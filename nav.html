@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/uikit.min.css" />
+    </head>
+    <body >
+		<div class="uk-width-1-2@s uk-width-2-5@m">
+		    <ul class="uk-nav uk-nav-default">
+		        <li class="uk-active"><a href="#">Active</a></li>
+		        <li><a href="#">Item</a></li>
+		        <li><a href="#">Item</a></li>
+		    </ul>
+		</div>
+
+		<h3>Nested nav</h3>
+		<div class="uk-width-1-2@s uk-width-2-5@m">
+		    <ul class="uk-nav uk-nav-default">
+		        <li class="uk-active"><a href="#">Active</a></li>
+		        <li class="uk-parent">
+		            <a href="#">Parent</a>
+		            <ul class="uk-nav-sub">
+		                <li><a href="#">Sub item</a></li>
+		                <li>
+		                    <a href="#">Sub item</a>
+		                    <ul>
+		                        <li><a href="#">Sub item</a></li>
+		                        <li><a href="#">Sub item</a></li>
+		                    </ul>
+		                </li>
+		            </ul>
+		        </li>
+		    </ul>
+		</div>
+
+		<h3>Accordion</h3>
+		<div class="uk-width-1-2@s uk-width-2-5@m">
+		    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+		        <li class="uk-active"><a href="#">Active</a></li>
+		        <li class="uk-parent">
+		            <a href="#">Parent</a>
+		            <ul class="uk-nav-sub">
+		                <li><a href="#">Sub item</a></li>
+		                <li>
+		                    <a href="#">Sub item</a>
+		                    <ul>
+		                        <li><a href="#">Sub item</a></li>
+		                        <li><a href="#">Sub item</a></li>
+		                    </ul>
+		                </li>
+		            </ul>
+		        </li>
+		        <li class="uk-parent">
+		            <a href="#">Parent</a>
+		            <ul class="uk-nav-sub">
+		                <li><a href="#">Sub item</a></li>
+		                <li><a href="#">Sub item</a></li>
+		            </ul>
+		        </li>
+		    </ul>
+		</div>
+
+		<h3>Multiple open navs</h3>
+		<div class="uk-width-1-2@s uk-width-2-5@m">
+		    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav="multiple: true">
+		        <li class="uk-active"><a href="#">Active</a></li>
+		        <li class="uk-parent">
+		            <a href="#">Parent</a>
+		            <ul class="uk-nav-sub">
+		                <li><a href="#">Sub item</a></li>
+		                <li>
+		                    <a href="#">Sub item</a>
+		                    <ul>
+		                        <li><a href="#">Sub item</a></li>
+		                        <li><a href="#">Sub item</a></li>
+		                    </ul>
+		                </li>
+		            </ul>
+		        </li>
+		        <li class="uk-parent">
+		            <a href="#">Parent</a>
+		            <ul class="uk-nav-sub">
+		                <li><a href="#">Sub item</a></li>
+		                <li><a href="#">Sub item</a></li>
+		            </ul>
+		        </li>
+		    </ul>
+		</div>
+
+		<h3>Header and divider</h3>
+		<div class="uk-width-1-2@s uk-width-2-5@m">
+		    <ul class="uk-nav uk-nav-default">
+		        <li class="uk-nav-header">Header</li>
+		        <li><a href="#">Item</a></li>
+		        <li><a href="#">Item</a></li>
+		        <li class="uk-nav-divider"></li>
+		        <li><a href="#">Item</a></li>
+		    </ul>
+		</div>
+
+		<h3>Default modifier</h3>
+		<div class="uk-card uk-card-default uk-card-body uk-width-1-2@s">
+		    <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+		        <li class="uk-active"><a href="#">Active</a></li>
+		        <li class="uk-parent">
+		            <a href="#">Parent</a>
+		            <ul class="uk-nav-sub">
+		                <li><a href="#">Sub item</a></li>
+		                <li><a href="#">Sub item</a></li>
+		            </ul>
+		        </li>
+		        <li class="uk-parent">
+		            <a href="#">Parent</a>
+		            <ul class="uk-nav-sub">
+		                <li><a href="#">Sub item</a></li>
+		                <li><a href="#">Sub item</a></li>
+		            </ul>
+		        </li>
+		        <li class="uk-nav-header">Header</li>
+		        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+		        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+		        <li class="uk-nav-divider"></li>
+		        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+		    </ul>
+		</div>
+
+		<h3>Primary modifier</h3>
+		<div class="uk-width-1-2@s">
+		    <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
+		        <li class="uk-active"><a href="#">Active</a></li>
+		        <li class="uk-parent">
+		            <a href="#">Parent</a>
+		            <ul class="uk-nav-sub">
+		                <li><a href="#">Sub item</a></li>
+		                <li><a href="#">Sub item</a></li>
+		            </ul>
+		        </li>
+		        <li class="uk-parent">
+		            <a href="#">Parent</a>
+		            <ul class="uk-nav-sub">
+		                <li><a href="#">Sub item</a></li>
+		                <li><a href="#">Sub item</a></li>
+		            </ul>
+		        </li>
+		        <li><a href="#">Item</a></li>
+		    </ul>
+		</div>
+
+		<h3>Center modifier</h3>
+		<div class="uk-card uk-card-default uk-card-body uk-width-1-2@s">
+		    <ul class="uk-nav-default uk-nav-center uk-nav-parent-icon" uk-nav>
+		        <li class="uk-active"><a href="#">Active</a></li>
+		        <li><a href="#">Item</a></li>
+		        <li><a href="#">Item</a></li>
+		    </ul>
+		</div>
+
+		<h3>Nav in dropdown</h3>
+		<button class="uk-button uk-button-default" type="button">Hover</button>
+		<div uk-dropdown>
+		    <ul class="uk-nav uk-dropdown-nav">
+		        <li class="uk-active"><a href="#">Active</a></li>
+		        <li><a href="#">Item</a></li>
+		        <li class="uk-nav-header">Header</li>
+		        <li><a href="#">Item</a></li>
+		        <li><a href="#">Item</a></li>
+		        <li class="uk-nav-divider"></li>
+		        <li><a href="#">Item</a></li>
+		    </ul>
+		</div>
+
+		<h3>Nav in navbar</h3>
+		<nav class="uk-navbar-container" uk-navbar>
+		    <div class="uk-navbar-left">
+
+		        <ul class="uk-navbar-nav">
+		            <li>
+		                <a href="#">Parent</a>
+		                <div class="uk-navbar-dropdown">
+		                    <ul class="uk-nav uk-navbar-dropdown-nav">
+		                        <li class="uk-active"><a href="#">Active</a></li>
+		                        <li><a href="#">Item</a></li>
+		                        <li class="uk-nav-header">Header</li>
+		                        <li><a href="#">Item</a></li>
+		                        <li><a href="#">Item</a></li>
+		                        <li class="uk-nav-divider"></li>
+		                        <li><a href="#">Item</a></li>
+		                    </ul>
+		                </div>
+		            </li>
+		        </ul>
+
+		    </div>
+		</nav>
+
+		<h3>Nav in off-canvas</h3>
+		<a href="#offcanvas-slide" class="uk-button uk-button-default" uk-toggle>Open</a>
+
+		<div id="offcanvas-slide" uk-offcanvas>
+		    <div class="uk-offcanvas-bar">
+
+		        <ul class="uk-nav uk-nav-default">
+		            <li class="uk-active"><a href="#">Active</a></li>
+		            <li><a href="#">Item</a></li>
+		            <li class="uk-nav-header">Header</li>
+		            <li><a href="#">Item</a></li>
+		            <li><a href="#">Item</a></li>
+		            <li class="uk-nav-divider"></li>
+		            <li><a href="#">Item</a></li>
+		        </ul>
+
+		    </div>
+		</div>
+
+		<script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </body>
+</html>

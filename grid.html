@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/uikit.min.css" />
+</head>
+
+<body class='uk-background-muted'>
+	<div class="uk-child-width-expand@s uk-text-center" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+	</div>
+
+	<h3>Grid modifiers</h3>
+	<div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+	</div>
+	<div class="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+	</div>
+	<div class="uk-grid-large uk-child-width-expand@s uk-text-center" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+	</div>
+	<div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+		<div>
+			<div class="uk-background-muted uk-padding">Item</div>
+		</div>
+		<div>
+			<div class="uk-background-primary uk-padding uk-light">Item</div>
+		</div>
+		<div>
+			<div class="uk-background-secondary uk-padding uk-light">Item</div>
+		</div>
+	</div>
+
+	<h3>Nested grid</h3>
+	<div class="uk-child-width-1-2 uk-text-center" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-child-width-1-2 uk-text-center" uk-grid>
+				<div>
+					<div class="uk-card uk-card-primary uk-card-body">Item</div>
+				</div>
+				<div>
+					<div class="uk-card uk-card-primary uk-card-body">Item</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h3>Divider modifier</h3>
+	<div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+		<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+		<div>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+		<div>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+	</div>
+
+	<h3>Match height</h3>
+	<div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item<br>...</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item<br>...<br>...</div>
+		</div>
+	</div>
+
+	<h3>Match only one cell</h3>
+	<div class="uk-child-width-expand@s" uk-grid>
+		<div class="uk-grid-item-match">
+			<div class="uk-card uk-card-default uk-card-body">
+				<h3>Heading</h3>
+				<p>
+					Lorem ipsum dolor sit amet.
+				</p>
+			</div>
+		</div>
+		<div>
+			<h3>Heading</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
+		</div>
+	</div>
+
+	<h3>JavaScript</h3>
+	<div class="uk-child-width-expand@s uk-text-center" uk-grid uk-height-match="target: > div > .uk-card">
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item<br>...</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item<br>...<br>...</div>
+		</div>
+	</div>
+
+	<h3>Grid and width</h3>
+	<div class="uk-text-center" uk-grid>
+		<div class="uk-width-auto@m">
+			<div class="uk-card uk-card-default uk-card-body">Auto</div>
+		</div>
+		<div class="uk-width-1-3@m">
+			<div class="uk-card uk-card-default uk-card-body">1-3</div>
+		</div>
+		<div class="uk-width-expand@m">
+			<div class="uk-card uk-card-default uk-card-body">Expand</div>
+		</div>
+	</div>
+
+	<h3>Child width</h3>
+	<div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item</div>
+		</div>
+	</div>
+
+	<h3>Grid and flex</h3>
+	<div class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item 1</div>
+		</div>
+		<div class="uk-flex-last">
+			<div class="uk-card uk-card-secondary uk-card-body">Item 2</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item 3</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item 4</div>
+		</div>
+		<div class="uk-flex-first">
+			<div class="uk-card uk-card-primary uk-card-body">Item 5</div>
+		</div>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body">Item 6</div>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/uikit.min.js"></script>
+	<script src="js/uikit-icons.min.js"></script>
+</body>
+
+</html>
