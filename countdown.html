@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/uikit.min.css" />
+
+    </head>
+    <body>
+		<div uk-countdown="date: 2017-05-11T06:02:58+00:00">
+			<span class="uk-countdown-number uk-countdown-days"></span>
+			<span class="uk-countdown-number uk-countdown-hours"></span>
+			<span class="uk-countdown-number uk-countdown-minutes"></span>
+			<span class="uk-countdown-number uk-countdown-seconds"></span>
+		</div>
+		
+		<h3>Separator</h3>
+		<div uk-countdown="date: 2017-05-11T06:02:58+00:00">
+			<span class="uk-countdown-number uk-countdown-days"></span>
+			<span class="uk-countdown-separator">:</span>
+			<span class="uk-countdown-number uk-countdown-hours"></span>
+			<span class="uk-countdown-separator">:</span>
+			<span class="uk-countdown-number uk-countdown-minutes"></span>
+			<span class="uk-countdown-separator">:</span>
+			<span class="uk-countdown-number uk-countdown-seconds"></span>
+		</div>
+		
+		<h3>Label</h3>
+		<div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2017-05-11T06:02:58+00:00">
+			<div>
+				<div class="uk-countdown-number uk-countdown-days"></div>
+				<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+			</div>
+			<div class="uk-countdown-separator">:</div>
+			<div>
+				<div class="uk-countdown-number uk-countdown-hours"></div>
+				<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+			</div>
+			<div class="uk-countdown-separator">:</div>
+			<div>
+				<div class="uk-countdown-number uk-countdown-minutes"></div>
+				<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+			</div>
+			<div class="uk-countdown-separator">:</div>
+			<div>
+				<div class="uk-countdown-number uk-countdown-seconds"></div>
+				<div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </body>
+</html>
