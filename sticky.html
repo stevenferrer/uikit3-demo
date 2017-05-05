@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/uikit.min.css" />
+		<script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+		<div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="bottom: #offset">Stick to the top</div>
+		
+		<h3>Offset</h3>
+		<div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="offset: 100; bottom: #top">Stick 100px below the top</div>
+		
+		<h3>Top</h3>
+<div class="uk-child-width-1-2@s" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="top: 200; bottom: #animation">Stick to the top but only after 200px scrolling</div>
+    </div>
+    <div>
+        <div id="container-1" class="uk-background-muted uk-height-medium" style="margin-bottom: 200px;">
+            <div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="top: #container-1; bottom: #animation">Stick to the top but below the box</div>
+        </div>
+    </div>
+</div>
+		<h3>Animation</h3>
+<div class="uk-card uk-card-default uk-card-body" style="margin-bottom: 200px; z-index: 980;" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">Animation Slide Top</div>
+		
+		<h3>Stick on scroll up</h3>
+<div class="uk-card uk-card-default uk-card-body" style="margin-bottom: 200px; z-index: 980;" uk-sticky="show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom">Slide in on scroll up</div>
+		<h3>Bottom</h3>
+		<div class="uk-child-width-1-2@s" uk-grid>
+    <div>
+        <div class="uk-background-muted uk-height-medium">
+            <div class="uk-height-medium uk-background-muted">
+                <div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="bottom: true">Stick until the bottom of its parent container</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="bottom: #container-2">Stick until the next headline</div>
+        </div>
+    </div>
+</div>
+
+<h3 id="container-2">Some Headline</h3>
+    </body>
+</html>

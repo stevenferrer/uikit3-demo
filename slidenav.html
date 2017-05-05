@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/uikit.min.css" />
+		<script src="js/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+		<a href="#" uk-slidenav-previous></a>
+		<a href="#" uk-slidenav-next></a>
+		
+		<h3>Large modifier</h3>
+		<a href="#" class="uk-slidenav-large" uk-slidenav-previous></a>
+		<a href="#" class="uk-slidenav-large" uk-slidenav-next></a>
+		
+		<h3>Position on image</h3>
+		<div class="uk-child-width-1-2@s uk-grid-small" uk-grid>
+			<div>
+				<div class="uk-inline uk-visible-toggle uk-light">
+					<img src="img/dark.jpg" alt="">
+					<a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-previous></a>
+					<a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-next></a>
+				</div>
+			</div>
+			<div>
+				<div class="uk-inline uk-visible-toggle">
+					<img src="img/light.jpg" alt="">
+					<a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-previous></a>
+					<a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-next></a>
+				</div>
+			</div>
+		</div>
+		
+		<h3>Slidenav container</h3>
+		<div class="uk-child-width-1-2@s uk-grid-small" uk-grid>
+			<div>
+				<div class="uk-inline uk-light">
+					<img src="img/dark.jpg" alt="">
+					<div class="uk-slidenav-container uk-position-top-left uk-position-small">
+						<a class="uk-slidenav-large" href="#" uk-slidenav-previous></a>
+						<a class="uk-slidenav-large" href="#" uk-slidenav-next></a>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="uk-inline">
+					<img src="img/light.jpg" alt="">
+					<div class="uk-slidenav-container uk-position-bottom-right uk-position-small">
+						<a class="uk-slidenav-large" href="#" uk-slidenav-previous></a>
+						<a class="uk-slidenav-large" href="#" uk-slidenav-next></a>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
